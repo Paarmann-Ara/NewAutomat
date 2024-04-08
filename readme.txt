@@ -55,6 +55,16 @@ Conventions.
 
 pip3 freeze > requirements.txt
 
+Usefull commands
+	show enviroment variable path in ps: 			$ENV:path
+
+	get Python version: 					python --version
+	call python module:					python -m
+
+	list installed packages: 				python -m pip list
+	uninstall package:					python -m pip uninstall 'pckagename'
+	create virtual enviroment:				python -m venv C:\Users\mpaarmann\MyProjects\md_365\.venv
+
 Create repository
         python3 -m venv C:\OneDrive\Test_Automat\.venv
         Create pth file in C:\OneDrive\Test_Automat\.venv\Lib\site-packages\WAWi.pth contain(c:\OneDrive\Test_Automat)
