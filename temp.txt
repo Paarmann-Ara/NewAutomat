@@ -1,0 +1,1 @@
+10-24-2023, 08:01:16 c:\OneDrive\Test_Automat\services\mail\core\mail.py--->services.mail.core.mail: string indices must be integers, not 'str'

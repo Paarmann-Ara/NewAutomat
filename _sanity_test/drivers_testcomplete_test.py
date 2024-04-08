@@ -1,0 +1,3 @@
+from drivers.testcomplete.testcomplete_wawi_provider import TestcompleteWawiProvider
+
+testcomplete_driver = TestcompleteWawiProvider().testcomplete_driver

@@ -1,0 +1,99 @@
+{
+    "wawi.testcase.testcase_object.testcase_objects_dictionary": {
+        "testcase_object_directory": "/wawi/testcase/testcase_object"
+    },
+
+    "wawi.testcase.sample_dictionary.testcase_sample_dictionary": {
+        "testcase_sample_file_dictionary": "/wawi/testcase/sample_dictionary/sample_file.json"
+    },
+
+    "services.db.sqlserver.config.db_config": {
+        "driver": "SQL SERVER",
+        "host": "LocalHost/JTLWAWI",
+        "database": "master",
+        "username": "sa",
+        "password": "sa04jT14"
+    },
+
+    "AQC": {
+        "CreateSessionTimeout": "1",
+        "WitForAppLaunch": "1",
+        "ProcessName": "JTL_WAWi",
+        "TestMeDB": "DefaultTestDB.bak",
+        "TestMeDBFolder": "C:/OneDrive/Manager",
+        "TestAppFolder": "C:/Mad-Grb/Apps",
+        "TestMeVersionFolder": ""
+    },
+
+    "services.mail.config.mail_config": {
+        "jtl": {
+            "smtp": "mail.jtl-software.de: 587",
+            "tc": {
+                "address": "tc@jtl-software.de",
+                "password": ""
+            },
+
+            "tc_help": {
+                "address": "tc-help@jtl-software.de",
+                "password": ""
+            },
+
+            "noreplay": {
+                "address": "noreply@jtl-software.com",
+                "password": ""
+            },
+
+            "tc_bugalert": {
+                "address": "tc-bugalert@jtl-software.de",
+                "password": ""
+            },
+
+            "tc_konfig": {
+                "address": "tc-konfig@jtl-software.de",
+                "password": ""
+            },
+
+            "mohammad.paarmann-ara": "mohammad.paarmann-ara@jtl-software.com"
+        },
+
+        "recipient_address": ["mohammad.paarmann-ara@jtl-software.com"],
+        "admin_address": ["mohammad.paarmann-ara@jtl-software.com"],
+        "dev_address": ["mohammad.paarmann-ara@jtl-software.com"]
+    },
+
+    "services.log_.config.log_config": {
+        "services.log_.core.stack.stack_context": {
+            "no_show_moduls": ["TestUmgebung", "le_Datei", "mTestTools"],
+            "no_show_methods": [
+                "StackOperation",
+                "WaitForAvailablity",
+                "__RunTest"
+            ]
+        },
+
+        "services.log_.core.loging.log": {
+            "Pipeline": {
+                "NumberOfLogInBatch": "1",
+                "Directory": "C:\\OneDrive\\TC_Sample_Datei",
+                "FileName": "\\Log_Pipeline.txt",
+                "encoding": "utf-8",
+                "level": "Info",
+                "ShowInConsoule": "True"
+            },
+
+            "Error": {
+                "NumberOfLogInBatch": "1",
+                "Directory": "C:\\OneDrive\\TC_Sample_Datei",
+                "FileName": "\\Log_Error.txt",
+                "encoding": "utf-8",
+                "level": "Info",
+                "ShowInConsoule": "True"
+            }
+        }
+    },
+
+    "drivers.web.selenium_driver.config.selenium_config": {
+        "selenium_chrom_webdriver_path": "C:/OneDrive/Manager/WebDrivers/chromedriver.exe"
+    }
+
+}
