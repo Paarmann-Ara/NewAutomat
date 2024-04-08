@@ -1,0 +1,36 @@
+{
+    "header_menu":{
+        "id":"header-top-bar"
+    },
+
+    "nav_kategories": {
+        "class name": "nav-mobile-body"
+    },
+
+    "btn_kategorie_<": {
+        "css selector": "#mainNavigation > div.left.nav-scrollbar-arrow > span"
+    },
+    "btn_kategorie_>": {
+        "css selector": "#mainNavigation > div.right.nav-scrollbar-arrow > span"
+    },
+
+    "txb_search": {
+        "id": "search-header"
+    },
+
+    "btn_suchen": {
+        "css selector": "#search > div > form > div > div > div.input-group-append > button > span"
+    },
+    "btn_user": {
+        "css selector": "#shop-nav > li.nav-item.dropdown.account-icon-dropdown > a > span"
+    },
+    "btn_heart":{
+        "class name":"fas fa-heart"
+    },
+    "btn_warenkorb":{
+        "class name":"fas fa-shopping-cart cart-icon-dropdown-icon"
+    },
+    "lbl_gesamt_betrag":{
+        "class name":"cart-icon-dropdown-price"
+    }
+}

@@ -1,0 +1,5 @@
+{
+    "btn_akzeptiren": { "css selector": "#consent-banner-btn-all" },
+    "btn_konfigurieren": { "css selector": "#consent-banner-btn-settings" },
+    "btn_ablehnen": { "css selector": "#consent-banner-btn-close" }
+}

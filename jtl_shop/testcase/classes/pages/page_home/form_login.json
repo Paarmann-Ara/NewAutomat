@@ -1,0 +1,20 @@
+{
+    "form_login": {
+        "css selector": "#shop-nav > li.nav-item.dropdown.account-icon-dropdown.show > div > div.dropdown-body.lg-min-w-lg > form"
+    },
+    "txb_email": {
+        "id": "email_quick"
+    },
+    "txb_password": {
+        "id": "password_quick"
+    },
+    "btn_anmelden": {
+        "id": "submit-btn"
+    },
+    "lnk_passwortvergessen": {
+        "link text": "Passwort vergessen"
+    },
+    "lnk_jetztregistrieren":{
+        "link text": "Jetzt registrieren"
+    }
+}

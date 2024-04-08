@@ -1,0 +1,17 @@
+{
+    "suche_nach":{
+        "class name":"h1"
+    },
+
+    "product_list":
+    {"css selector":"#product-list"},
+
+    "product_item_in_product_list":
+    {"class name":"text-clamp-2"},
+
+    "product_hyperlink_in_product_list":
+    {"tag name":"a"},
+
+    "productbox":
+    {"class name":"productbox productbox-column productbox-hover"}
+}

@@ -1,0 +1,13 @@
+{
+    "btn_in_warenkorb_hinzufugen": {
+        "css selector": "#add-to-cart > div > div:nth-child(2) > button"
+    },
+
+    "btn_plus_in_warenkorb": {
+        "css selector": "#quantity-grp > div.input-group-append > button > span"
+    },
+
+    "btn_minus_in_warenkorb":{
+        "css selector": "#quantity-grp > div.input-group-prepend > button > span"
+    }
+}
